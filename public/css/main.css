@@ -1,0 +1,53 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  h1 {
+    text-align:center;
+  }
+  .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .photo {
+    border-radius: 45px;
+    margin-right: 20px;
+    width: 90px;
+    height:50px
+  }
+  .form-control { 
+    width:30%;
+    display: inline-block;
+    margin-right:10px;
+  }
+  .name {
+    font-weight: 700;
+  }
+  .expertise-label {
+    display:block;
+    font-weight: 700;
+    margin-top:10px;
+  }
+  .btn-more {
+    margin-top:10px;
+    width: 100%
+  }
+  .label {
+    font-weight: normal;
+  }
+  
+  .input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;  }
